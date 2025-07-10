@@ -1,0 +1,59 @@
+.line{
+    background-color: blue;
+    height: 2px;
+    width: 98%;
+    margin: -10px 10px;
+}
+.content{
+    display: flex; 
+    padding-left: 20px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient-text{
+    border-left: 5px solid blue;
+    height: 250px;
+    padding-left: 20px;
+}
+#gradient{
+    background: linear-gradient(to right, blue,orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-shadow{
+    margin-left: 300px;
+    border-left: 5px solid blue;
+    height: 250px;
+    padding-left: 20px;
+}
+.shadow{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+.text-stroke{
+    margin-left: 300px;
+    border-left: 5px solid blue;
+    height: 250px;
+    padding-left: 20px;
+}
+.stroke{
+    font-weight: 700;
+    font-size: 25px;
+    color: transparent;
+    -webkit-text-stroke: 1px #3170f5;
+}
+.drop-cap{
+    margin-left: 20px;
+    padding-left: 20px;  
+    border-left: 5px solid blue;
+    height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.D:first-letter{
+    float: left;
+    font-size: 46px;
+    color: blue;
+    padding-right: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
